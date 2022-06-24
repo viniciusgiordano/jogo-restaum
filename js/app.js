@@ -96,11 +96,11 @@ var RestaUm = (function () {
               },
               {
                 position: parseInt(pino + 14),
-                direction: 'b'
+                direction: 'd'
               },
               {
                 position: parseInt(pino - 14),
-                direction: 't'
+                direction: 'u'
               }
             ]
 
@@ -129,10 +129,10 @@ var RestaUm = (function () {
             case 'r':
               deletePinoIndex = parseInt(pino + 1)
               break
-            case 'b':
+            case 'd':
               deletePinoIndex = parseInt(pino + 7)
               break
-            case 't':
+            case 'u':
               deletePinoIndex = parseInt(pino - 7)
               break
           }
